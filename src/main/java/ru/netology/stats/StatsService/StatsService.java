@@ -55,7 +55,6 @@ public class StatsService {
         return aboveAverage;
     }
 
-
     public int belowTheAverageSales(long[] sales) {
         int belowAverage = 0;
         int newAverage = averageSales(sales);
@@ -66,6 +65,4 @@ public class StatsService {
         }
         return belowAverage;
     }
-
-
 }
