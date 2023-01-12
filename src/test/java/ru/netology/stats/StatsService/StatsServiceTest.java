@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class StatsServiceTest {
+    
     @Test
     public void IsSumSalesCorrect() {
         StatsService service = new StatsService();
@@ -16,7 +17,6 @@ public class StatsServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
-
     @Test
     public void IsAverageSalesCorrect() {
         StatsService service = new StatsService();
@@ -28,7 +28,6 @@ public class StatsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
-
 
     @Test
     public void IsMinSalesCorrect() {
